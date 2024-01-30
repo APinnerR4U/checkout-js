@@ -238,6 +238,14 @@ class OrderConfirmation extends Component<
                                     storeCurrency={currency}
                                     total={order.orderAmount}
                                 />
+                                 <OrderSummary
+                                    headerLink={<PrintLink />}
+                                    {...mapToOrderSummarySubtotalsProps(order)}
+                                    lineItems={order.lineItems}
+                                    shopperCurrency={shopperCurrency}
+                                    storeCurrency={currency}
+                                    total={order.orderAmount}
+                                />
                             </LazyContainer>
                         );
                     }
