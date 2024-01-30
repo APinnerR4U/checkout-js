@@ -2,6 +2,9 @@
 
 Checkout JS is a browser-based application providing a seamless UI for BigCommerce shoppers to complete their checkout. It is also known as [Optimized One-Page Checkout](https://support.bigcommerce.com/s/article/Optimized-Single-Page-Checkout), which is currently the recommended checkout option for all BigCommerce stores.
 
+LIVE URL: webdav:OrderConfirmation/auto-loader-1.436.2.js
+
+
 ## Requirements
 
 In order to build from the source code, you must have the following set up in your development environment.
@@ -32,6 +35,8 @@ If you are developing the application locally and want to build the source code 
 
 ```sh
 npm run dev
+
+npm run dev & npm run dev:server
 ```
 
 If you want to create a prerelease (i.e.: `alpha`) for testing in the integration environment, you can run the following command:
